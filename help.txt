@@ -1,0 +1,33 @@
+# kubectl get deployments
+# kubectl delete deployment <deployment_name>
+
+# kubectl get services
+# kubectl delete service <deployment_name>
+
+# kubectl apply -f k8s
+
+# Next up we're going to specify the selector that the deployment
+# is going to use to find these set of
+# pods that it's supposed to control.
+https://www.udemy.com/docker-and-kubernetes-the-complete-guide/learn/v4/t/lecture/11514726?start=162
+
+# kubectl get storageclass
+# kubectl describe storageclass
+
+# pv - stands for persistent volume
+# kubectl get pv
+# c - claim we made for persistent volume (advertisement)
+# kubectl get pvc
+
+# kubectl create secret generic <secret_name> --from-literal key=value
+# kubectl create secret generic pgpassword --from-literal PGPASSWORD=oooopppp0000
+# kubectl get secrets
+
+# https://kubernetes.github.io/ingress-nginx/
+
+# mandatory command
+# kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/mandatory.yaml
+# for local only - minikube
+# minikube addons enable ingress
+
+# minikube dashboard
