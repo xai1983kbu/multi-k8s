@@ -31,3 +31,9 @@ https://www.udemy.com/docker-and-kubernetes-the-complete-guide/learn/v4/t/lectur
 # minikube addons enable ingress
 
 # minikube dashboard
+
+
+# console.cloud.google.com
+# https://www.udemy.com/docker-and-kubernetes-the-complete-guide/learn/v4/questions/6355658
+
+# https://github.com/travis-ci/travis.rb
