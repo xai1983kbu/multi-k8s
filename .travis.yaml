@@ -18,7 +18,7 @@ before_install:
   - docker build -t sozonivka2018/react-test -f ./client/Dockerfile.dev ./client
 
 script:
-  - docker run sozonivka2018/react-test npm run test -- --coverage
+  - docker run sozonivka2018/react-test npm test -- --coverage
 
 deploy:
   provider: script
