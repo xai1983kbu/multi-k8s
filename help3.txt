@@ -1,0 +1,7 @@
+# https://github.com/jetstack/cert-manager
+# https://docs.cert-manager.io/en/latest/
+
+# helm repo update
+# helm install --name cert-manager --namespace kube-system --version v0.4.1 stable/cert-manager
+# if got an error rerun command belove - see help2.txt
+# ./get_helm.sh
